@@ -52,5 +52,5 @@ Onboard featues:
 [Datasheet](./assets/Datasheet.pdf)
 
 ## Resources
-https://github.com/9names/bl702-hal
-https://wiki.sipeed.com/hardware/en/maixzero/sense/maix_zero_sense.html
+- https://github.com/9names/bl702-hal
+- https://wiki.sipeed.com/hardware/en/maixzero/sense/maix_zero_sense.html
