@@ -1,7 +1,6 @@
 # Sipeed M0 Sense
 
-This repo is a personal set of projects running on the [M0Sense](https://wiki.sipeed.com/hardware/en/maixzero/sense/maix_zero_sense.html) Board
-
+This repo is a personal set of examples running on the [M0Sense](https://wiki.sipeed.com/hardware/en/maixzero/sense/maix_zero_sense.html) board
 
 ## Installing
 ```
@@ -11,7 +10,7 @@ pip install bflb-mcu-tool
 ```
 
 ## Running
-Before running the command, the board should be in programming mode, set IO pin 28 to high before turning the board on and keep until boot.
+Before running the command, the board should be in programming mode, set IO pin 28 to high before turning the board on, and keep until boot.
 
 After your computer detect the new serial communication device and add a new COM port, run the code to upload the binary to board:
 
