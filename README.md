@@ -2,14 +2,14 @@
 
 This repo is a personal set of examples running on the [M0Sense](https://wiki.sipeed.com/hardware/en/maixzero/sense/maix_zero_sense.html) board
 
-## Installing
+## ⚙ Installing
 ```
 cargo install cargo-binutils
 rustup component add llvm-tools
 pip install bflb-mcu-tool
 ```
 
-## Running
+## 🚀 Running
 Before running the command, the board should be in programming mode, set IO pin 28 to high before turning the board on, and keep until boot.
 
 After your computer detect the new serial communication device and add a new COM port, run the code to upload the binary to board:
@@ -24,6 +24,8 @@ Or simply:
 ```
 assets/run.bat blinky
 ```
+
+## 🧾 Board specs
 
 [BL702](https://en.bouffalolab.com/product/?type=detail&id=8) chip specs:
 - single core, 32-bit, RISC-V CPU running at 144MHz with [FPU](https://en.wikipedia.org/wiki/Floating-point_unit).
@@ -50,6 +52,6 @@ Onboard featues:
 
 [Datasheet](./assets/Datasheet.pdf)
 
-## Resources
+## 🧐 Resources
 - https://github.com/9names/bl702-hal
 - https://wiki.sipeed.com/hardware/en/maixzero/sense/maix_zero_sense.html
