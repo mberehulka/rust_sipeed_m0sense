@@ -18,15 +18,21 @@ fn main() -> ! {
     let mut parts = dp.GLB.split();
     let clocks = ClockConfig::new().freeze(&mut parts.clk_cfg);
 
-    let mut led = parts.pin25.into_pull_up_output();
+    let mut led_r = parts.pin25.into_pull_up_output();
+    let mut led_g = parts.pin24.into_pull_up_output();
+    let mut led_b = parts.pin23.into_pull_up_output();
 
     let mut d = McycleDelay::new(clocks.sysclk().0);
 
     loop {
-        led.set_high().unwrap();
+        led_r.set_high().unwrap();
+        led_g.set_high().unwrap();
+        led_b.set_high().unwrap();
         d.delay_ms(1000).unwrap();
 
-        led.set_low().unwrap();
+        led_r.set_low().unwrap();
+        led_g.set_low().unwrap();
+        led_b.set_low().unwrap();
         d.delay_ms(1000).unwrap();
     }
 }

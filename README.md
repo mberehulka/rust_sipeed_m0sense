@@ -15,8 +15,8 @@ Before running the command, the board should be in programming mode, set IO pin 
 After your computer detect the new serial communication device and add a new COM port, run the code to upload the binary to board:
 
 ```
-cargo objcopy --release --example blinky -- -O binary blinky.bin
-bflb-mcu-tool --chipname bl702 --firmware blinky.bin
+cargo objcopy --release --example blinky -- -O binary .bin/blinky.bin
+bflb-mcu-tool --chipname bl702 --firmware .bin/blinky.bin
 ```
 
 Or simply:

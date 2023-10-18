@@ -1,3 +1,5 @@
+[tests]
+
 [package]
 name = "sipeed_m0_sense"
 version = "0.1.0"

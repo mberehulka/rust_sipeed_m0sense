@@ -10,16 +10,6 @@
                 "clear": true,
                 "panel": "shared"
             }
-        },
-        {
-            "label": "B",
-            "command": "cargo build --example blinky",
-            "type": "shell",
-            "presentation": {
-                "reveal": "always",
-                "clear": true,
-                "panel": "shared"
-            }
         }
     ]
 }
