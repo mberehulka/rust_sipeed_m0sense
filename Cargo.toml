@@ -1,0 +1,12 @@
+[package]
+name = "sipeed_m0_sense"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bl702-hal = { git = "https://github.com/muriel-guedes/bl702-hal" }
+embedded-hal-alpha = { version = "=1.0.0-alpha.5", package = "embedded-hal" }
+riscv-rt = "0.11.0"
+
+[build-dependencies]
+riscv-target = "0.1.2"
