@@ -1,8 +1,8 @@
 #![no_std]
 #![no_main]
 
-use bl702_hal as hal;
-use hal::{
+use bl702_hal::{
+    // self as hal,
     clock::{board_clock_init, system_init, ClockConfig},
     delay::McycleDelay,
     pac,
