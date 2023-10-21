@@ -4,9 +4,11 @@ This repo is a personal set of examples running on the [M0Sense](https://wiki.si
 
 ## ⚙ Installing
 ```
-cargo install cargo-binutils
+rustup target add riscv32imac-unknown-none-elf
+rustup component add llvm-tools-preview
 rustup component add llvm-tools
-pip install bflb-mcu-tool
+cargo install cargo-binutils
+sudo pip install bflb-mcu-tool
 ```
 
 ## 🚀 Running

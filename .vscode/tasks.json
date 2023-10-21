@@ -3,7 +3,7 @@
     "tasks": [
         {
             "label": "A",
-            "command": "assets/run.bat empty",
+            "command": "assets/run.sh blinky",
             "type": "shell",
             "presentation": {
                 "reveal": "always",
