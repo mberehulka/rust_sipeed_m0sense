@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bl702-hal = { git = "https://github.com/muriel-guedes/bl702-hal" }
+bl702-hal = { git = "https://github.com/mberehulka/bl702-hal" }
 bl702-pac = "0.0.3"
 embedded-hal-alpha = { version = "=1.0.0-alpha.5", package = "embedded-hal" }
 riscv-rt = "0.11.0"
